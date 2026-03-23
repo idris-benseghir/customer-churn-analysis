@@ -11,3 +11,19 @@ A strong emphasis was placed on data preprocessing and feature engineering to ex
 * Evaluate model performance using classification metrics and diagnostic tools (e.g., confusion matrix)
 * Validate model generalization through a proper train-test split
 * Establish a baseline model (Logistic Regression) for comparison with more advanced algorithms
+## Dataset
+The project uses separate training and testing datasets:
+
+`customer_churn_dataset-training-master.csv`
+`customer_churn_dataset-testing-master.csv`
+
+The dataset includes:
+
+* Demographics
+* Customer engagement metrics
+* Financial behavior
+* Subscription details
+
+**Target Variable:**
+
+* `Churn (1 = Churned, 0 = Retained)`
