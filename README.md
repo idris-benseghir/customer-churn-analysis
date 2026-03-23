@@ -14,8 +14,8 @@ A strong emphasis was placed on data preprocessing and feature engineering to ex
 ## Dataset
 The project uses separate training and testing datasets:
 
-`customer_churn_dataset-training-master.csv`   
-`customer_churn_dataset-testing-master.csv`
+* `customer_churn_dataset-training-master.csv`   
+* `customer_churn_dataset-testing-master.csv`
 
 The dataset includes:
 
@@ -27,3 +27,13 @@ The dataset includes:
 **Target Variable:**
 
 * `Churn (1 = Churned, 0 = Retained)`
+## Data Preprocessing
+**Data Cleaning**
+* Checked for missing values across all features
+* Applied appropriate handling (imputation or removal)
+* Converted categorical variables (e.g., Yes/No) into numerical format (1/0)
+* Removed irrelevant columns such as customer IDs
+**Data Validation**
+* Verified dataset structure and types
+* Saved cleaned dataset for reproducibility:
+`Data/Processed/Final_v_customer_churn_dataset.csv`
