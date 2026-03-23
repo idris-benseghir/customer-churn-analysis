@@ -1,10 +1,10 @@
 # Customer Churn Analysis & Feature Engineering
+## Author: Abdallah Idris Benseghir
 
 ## Overview
 This project focuses on analyzing customer behavior and predicting churn using machine learning techniques.  
 A strong emphasis is placed on data preprocessing and feature engineering to extract meaningful patterns and improve model performance.
 
----
 
 ## Objectives
 - Analyze customer behavior to identify patterns, trends, and key factors associated with churn  
@@ -16,7 +16,6 @@ A strong emphasis is placed on data preprocessing and feature engineering to ext
 - Validate model generalization through a proper train-test split  
 - Establish a baseline model (Logistic Regression) for comparison with more advanced algorithms  
 
----
 
 ## Dataset
 
@@ -34,7 +33,6 @@ The dataset includes:
 **Target Variable:**  
 - `Churn` (1 = Churned, 0 = Retained)
 
----
 
 ## Data Preprocessing
 
@@ -49,7 +47,6 @@ The dataset includes:
 - Saved cleaned dataset for reproducibility:  
   `Data/Processed/Final_v_customer_churn_dataset.csv`
 
----
 
 ## Feature Engineering
 
@@ -78,7 +75,6 @@ Feature engineering was a key component of this project. Features were grouped a
 - Customers with late payments show higher churn rates  
 - Lower average spending is associated with higher churn risk  
 
----
 
 ## Exploratory Data Analysis (EDA)
 
@@ -91,7 +87,6 @@ Key visualizations:
 
 These insights guided feature engineering decisions and model development.
 
----
 
 ## Modeling
 
